@@ -1,0 +1,26 @@
+Austin Andersen
+17 September 2021
+
+Java file: MoneyCalculator
+Files required:
+  MoneyCalculator.java
+
+
+  The purpose of this file was to practice math functions and trying to find a practical use for them. In this case,
+  I needed to caclulate a budget for my family so we could see what kind of house we can afford. I incorporated a
+  mortgage calculator which will accurately determine what the monthly payment will look like depending on the mortgage
+  size and interest rate.
+  
+  The program, when run, first asks the user, which in this case was myself, to make sure information about my wage and 
+  car insurance is up to date. After going through my information, it then prompts the user to provide the information
+  for the spouse. After asking about our savings, having gotten the required information, it will then calculate the 
+  maximum earnings by month, how much is spent per month, how long it will take to save for a down payment, what the
+  mortgage rate is, and what will be left over for savings after paying bills, mortgage, and utilities
+  
+To run:
+First have only the MoneyCalculator.java file. If there is a class file, use the following command:
+rm *.class
+
+Type in
+javac MoneyCalculator.java
+java MoneyCalculator
